@@ -9,7 +9,7 @@ data = pd.read_csv("crystal_data.csv",delimiter = ',')
 
 st.write('''
 # Crystal System Prediction
- To Predict Crystal System Using ML And Python
+ Integrating Concepts Of Chemistry & Computer Science 
 ''')
 
 chem_data = data.Formula.apply(chemparse.parse_formula)
